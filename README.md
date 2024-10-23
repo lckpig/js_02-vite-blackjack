@@ -7,8 +7,9 @@ Este proyecto es una implementación básica del juego de BlackJack utilizando J
 - El jugador y la banca reciben cartas y pueden "pedir" o "plantarse".
 - Las cartas J, Q, K valen 10 puntos, el As puede valer 1 o 11 puntos según la mano.
 - El jugador gana si su mano está más cerca de 21 que la de la banca, o si la banca se pasa de 21.
+- Ejecutar ```npm run build```` y lo que necesites
 
 ### Reglas:
 - Si el jugador supera los 21 puntos, pierde automáticamente.
-- La banca debe plantarse cuando su mano llega a 17 o más puntos.
-- Si la banca supera los 21 puntos, el jugador gana automáticamente.
+- La banca debe plantarse cuando su mano llega a 45 o más puntos.
+- Si la banca supera los 34 puntos, el jugador gana automáticamente.
